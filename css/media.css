@@ -1,0 +1,54 @@
+@media screen and (max-width: 1475px) {
+    .section3 .map{flex-wrap: wrap; padding: 0; padding-top: 50px;}
+    .section3 .map .content-map{order: -1;}
+    .section3 .map .content-map-txt{flex-basis: 70%; padding: 20px; display: flex; align-items: center; border-radius: 15px; font-size: 14px;}
+    .section3 .map .content-map-txt .content-map-subtxt{padding: 0;}
+    .section3 .map .content-map-txt .content-map-subtxt ul li{margin: 0;}
+    .section3 .footer{max-width: 70%; margin-top: 20px; font-size: 14px;}
+
+    .section4 .section4-box{flex-wrap: wrap; gap: 0;}
+    .section4 .section4-title{flex-basis: 100%; font-size: 30px;}
+    .section4 .section4-title ul{text-align: center;}
+    .section4 .section4-content{font-size: 14px;}
+}
+@media screen and (max-width: 1160px) {
+    .main{position: absolute;}
+
+    .section4 .cover .title{display: block;}
+    .section4 .section4-content{flex-basis: 80%;}
+}
+
+@media screen and (max-width: 720px) {
+    .title{font-size: 30px;}
+    .typing{font-size: 12px;}
+    .section1 .main-txt{width: 300px;}
+
+    .section3 .map .content-map-txt{background-color: transparent; border: 0px;}
+    .section3 .map .content-map-txt .content-map-title{display: none;}
+    .section3 .map .content-map-subtxt{display: none;}
+    .section3 .map .content-map-txt .quick-link{background: #fff;}
+    .root_daum_roughmap{width: 350px !important; height: 250px;}
+    .section3 .footer{padding: 5%;}
+    .section3 .footer-inner{margin-top: 5px;}
+}
+@media screen and (max-width: 376px) {
+    *{padding-left: 0;}
+    .main{ height: 250px;}
+
+    .section3 .footer{font-size: 11px;}
+    .section4 .section4-title{flex-basis: 100%; font-size: 20px;}
+    .section4 .section4-content{font-size: 12px;}
+    .section4 .section4-content ul li:last-child strong{font-size: 14px;}
+}
+/* fold */
+@media screen and (max-width: 300px){
+    .typing{font-size: 8px;}
+    .title{font-size: 20px;}
+
+    .main ul li a{font-size: 16px;}
+
+    .section4 .section4-title ul{font-size: 15px;}
+    .section4 .section4-content ul{font-size: 11px;}
+    .section4 .section4-content ul li:last-child strong{font-size: 12px;}
+    .root_daum_roughmap{width: 250px !important; height: 250px;}
+}
