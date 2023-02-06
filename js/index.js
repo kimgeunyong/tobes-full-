@@ -11,30 +11,9 @@ $("document").ready(function () {
     onLeave: function (origin, destination, direction) {
       console.log("Leaving section" + origin.index);
     },
-    sectionsColor: ['#000', '#000', '#fff'],
+    // sectionsColor: ['#000', '#000', '#fff'],
   });
   
-  // var bw = $("body").width();
-  // $(window).resize(function () {
-  //   bw = $("body").width();
-  //   console.log(bw);
-  // });
-  // if (bw < 1100) {
-  //   $("#fullpage").fullpage({
-  //     css3:true,
-  //   })
-  // } else {
-    
-  // }
-  // $(window).resize(function () {
-  //   if ($(window).width() < 1100) {
-  //     $('#fullpage').fullpage({
-  //       css3: true
-  //     })
-  //   }
-  // });
-
-
   var typingBool = false;
   var typingIdx = 0;
   var liIndex = 0;
@@ -63,7 +42,7 @@ $("document").ready(function () {
         typingTxt = $(".main-text>ul>li").eq(liIndex).text();
 
         //다음문장 타이핑전 1초 쉰다
-        //  clearInterval(tyInt);
+         clearInterval(tyInt);
         //타이핑종료
 
         setTimeout(function () {

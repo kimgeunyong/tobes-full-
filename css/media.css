@@ -14,6 +14,7 @@
 @media screen and (max-width: 1160px) {
     .main{position: absolute;}
 
+    .section3 .title,
     .section4 .cover .title{display: block;}
     .section4 .section4-content{flex-basis: 80%;}
 }
