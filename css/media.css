@@ -17,6 +17,7 @@
     .section3 .title,
     .section4 .cover .title{display: block;}
     .section4 .section4-content{flex-basis: 80%;}
+    .section4 .content-img{width: 720px;}
 }
 
 @media screen and (max-width: 720px) {
@@ -31,6 +32,7 @@
     .root_daum_roughmap{width: 350px !important; height: 250px;}
     .section3 .footer{padding: 5%;}
     .section3 .footer-inner{margin-top: 5px;}
+    .section4 .content-img{width: 376px;}
 }
 @media screen and (max-width: 376px) {
     *{padding-left: 0;}
@@ -40,6 +42,7 @@
     .section4 .section4-title{flex-basis: 100%; font-size: 20px;}
     .section4 .section4-content{font-size: 12px;}
     .section4 .section4-content ul li:last-child strong{font-size: 14px;}
+    .section4 .content-img{width: 300px;}
 }
 /* fold */
 @media screen and (max-width: 300px){
@@ -51,5 +54,7 @@
     .section4 .section4-title ul{font-size: 15px;}
     .section4 .section4-content ul{font-size: 11px;}
     .section4 .section4-content ul li:last-child strong{font-size: 12px;}
+    .section4 .content-img{width: 275px;}
     .root_daum_roughmap{width: 250px !important; height: 250px;}
+
 }

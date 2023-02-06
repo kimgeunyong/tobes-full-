@@ -42,7 +42,7 @@
 } 
 .typing ul li:nth-child(2){
   color: #009fe8;
-  text-shadow: -6px 5px 4px powderblue;
+  text-shadow: -6px 5px 4px slategrey;
 }
 .blue{
   color: #009fe8;
@@ -54,6 +54,8 @@
 }
 
 .section3{background:url(https://i.postimg.cc/63CdPQgH/map-of-the-world-g1b4090527-1920.jpg); background-size: cover; background-position: center; height: 100vh; box-sizing: border-box;}
+.root_daum_roughmap{height: 353px; border-radius: 5px;}
+
 .section3 .title{display: none;}
 .section3 .map{display: flex; padding: 80px 0; justify-content: center; align-items: center; gap: 20px;}
 /* .section3 .map .content-map{flex-basis: 50%;} */
@@ -84,7 +86,7 @@
 /* .section4 .section4-content ul li:last-child strong::after{position: absolute; content: ""; width: 100%; height: 2px; background-color: #000; bottom: -5px; left: 50%; transform: translateX(-50%); display: none;} */
 .section4 .section4-content input{border-radius: 10px; box-shadow: 1px 1px 5px 1px gray; cursor: pointer;}
 .section4 .section4-content input:hover{background-color: #009fe8; color: #fff;}
-.section4 .content-img{position: fixed; max-width: 1200px; display: none; top: 50%; transform: translate(-50%, -50%); padding: 0 2%; left: 50%; z-index: 99;}
+.section4 .content-img{position: fixed; width: 1100px; display: none; top: 50%; transform: translate(-50%, -50%); padding: 0 2%; left: 50%; z-index: 99;}
 .section4 .content-img.on{display: block;}
 .section4 .content-img .content-img-wrap{width: 100%; background: #000; font-size: 0;}
 .section4 .content-img .content-img-wrap img{width: 100%;}
