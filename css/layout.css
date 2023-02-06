@@ -53,9 +53,11 @@
   100%{border-right: 2px solid #fff} 
 }
 
-.section3{background:url(https://i.postimg.cc/63CdPQgH/map-of-the-world-g1b4090527-1920.jpg); background-size: cover; background-position: center; height: 100vh; box-sizing: border-box;}
+
 .root_daum_roughmap{height: 353px; border-radius: 5px;}
 
+.section3{background:url(https://i.postimg.cc/63CdPQgH/map-of-the-world-g1b4090527-1920.jpg); background-size: cover; background-position: center; height: 100vh; box-sizing: border-box;}
+.section3 .section-wrap{padding-top: 100px;}
 .section3 .title{display: none;}
 .section3 .map{display: flex; padding: 80px 0; justify-content: center; align-items: center; gap: 20px;}
 /* .section3 .map .content-map{flex-basis: 50%;} */

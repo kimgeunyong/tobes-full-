@@ -14,6 +14,7 @@
 @media screen and (max-width: 1160px) {
     .main{position: absolute;}
 
+    .section3 .section-wrap{padding-top: 50px;}
     .section3 .title,
     .section4 .cover .title{display: block;}
     .section4 .section4-content{flex-basis: 80%;}
@@ -38,6 +39,7 @@
     *{padding-left: 0;}
     .main{ height: 250px;}
 
+    .section3 .section-wrap{padding-top: 0px;}
     .section3 .footer{font-size: 11px;}
     .section4 .section4-title{flex-basis: 100%; font-size: 20px;}
     .section4 .section4-content{font-size: 12px;}
