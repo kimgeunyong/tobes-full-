@@ -6,7 +6,7 @@ $("document").ready(function () {
     css3:false,
     // navigationTooltips:['section1', 'section2', 'section3'],
     // responsiveWidth: 700,
-    anchors: ['section1', 'section4', 'section3'],
+    anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
     parallax: true,
     onLeave: function (origin, destination, direction) {
       console.log("Leaving section" + origin.index);
@@ -81,20 +81,47 @@ $("document").ready(function () {
     $(".section02").fadeOut("on")
   })
 
-  $(".section4 .box1 input").click(function(){
+  $(".section2 .section2-content .sub-content ul:first-child").addClass("on")
+  $(".section2 .section2-content .sub-title ul li:first-child").addClass("on")
+  $(".section2 .section2-content .sub-title ul li:nth-child(1)").click(function(){
+    $(".section2 .section2-content .sub-content ul").removeClass("on")
+    $(".section2 .section2-content .sub-title ul li").removeClass("on")
+    $(".section2 .section2-content .sub-content ul:nth-child(1)").addClass("on")
+    $(".section2 .section2-content .sub-title ul li:nth-child(1)").addClass("on")
+  })
+  $(".section2 .section2-content .sub-title ul li:nth-child(2)").click(function(){
+    $(".section2 .section2-content .sub-content ul").removeClass("on")
+    $(".section2 .section2-content .sub-title ul li").removeClass("on")
+    $(".section2 .section2-content .sub-content ul:nth-child(2)").addClass("on")
+    $(".section2 .section2-content .sub-title ul li:nth-child(2)").addClass("on")
+  })
+  $(".section2 .section2-content .sub-title ul li:nth-child(3)").click(function(){
+    $(".section2 .section2-content .sub-content ul").removeClass("on")
+    $(".section2 .section2-content .sub-title ul li").removeClass("on")
+    $(".section2 .section2-content .sub-content ul:nth-child(3)").addClass("on")
+    $(".section2 .section2-content .sub-title ul li:nth-child(3)").addClass("on")
+  })
+  $(".section2 .section2-content .sub-title ul li:nth-child(4)").click(function(){
+    $(".section2 .section2-content .sub-content ul").removeClass("on")
+    $(".section2 .section2-content .sub-title ul li").removeClass("on")
+    $(".section2 .section2-content .sub-content ul:nth-child(4)").addClass("on")
+    $(".section2 .section2-content .sub-title ul li:nth-child(4)").addClass("on")
+  })
+
+  $(".section3 .box1 input").click(function(){
     $(".cover .box1 .content-img").fadeIn("on")
   })
-  $(".section4 .box2 input").click(function(){
+  $(".section3 .box2 input").click(function(){
     $(".cover .box2 .content-img").fadeIn("on")
   })
-  $(".section4 .box3 input").click(function(){
+  $(".section3 .box3 input").click(function(){
     $(".cover .box3 .content-img").fadeIn("on")
   })
-  $(".section4 .box4 input").click(function(){
+  $(".section3 .box4 input").click(function(){
     $(".cover .box4 .content-img").fadeIn("on")
   })
-  $(".section4 .cover .close").click(function(){
-    $(".section4 .content-img").fadeOut("on")
+  $(".section3 .cover .close").click(function(){
+    $(".section3 .content-img").fadeOut("on")
   })
 
 })
