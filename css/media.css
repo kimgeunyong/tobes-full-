@@ -53,7 +53,11 @@
 @media screen and (max-width: 376px) {
     *{padding-left: 0;}
     .main{ height: 250px;}
-    .cover{padding-top: 150px;}
+    .main .cover{padding-top: 150px;}
+
+    
+    .section2 .section2-content .sub-title ul{flex-wrap: wrap;}
+    .section2 .section2-content .sub-title ul li.on{order: 9;}
 
     .section5 .section-wrap{padding-top: 0px;}
     .section5 .footer{font-size: 11px;}
