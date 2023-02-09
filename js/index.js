@@ -124,4 +124,40 @@ $("document").ready(function () {
     $(".common-section .content-img").fadeOut("on")
   })
 
+  // $(".common-section .box1 .section3-content:nth-child(2) input").click(function(){
+  //   $(".cover .box1 .section3-content:nth-child(2) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box1 .section3-content:nth-child(3) input").click(function(){
+  //   $(".cover .box1 .section3-content:nth-child(3) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box1 .section3-content:nth-child(4) input").click(function(){
+  //   $(".cover .box1 .section3-content:nth-child(4) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box2 .section3-content:nth-child(2) input").click(function(){
+  //   $(".cover .box2 .section3-content:nth-child(2) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box2 .section3-content:nth-child(3) input").click(function(){
+  //   $(".cover .box2 .section3-content:nth-child(3) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box2 .section3-content:nth-child(4) input").click(function(){
+  //   $(".cover .box2 .section3-content:nth-child(4) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box3 .section3-content:nth-child(2) input").click(function(){
+  //   $(".cover .box3 .section3-content:nth-child(2) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box3 .section3-content:nth-child(3) input").click(function(){
+  //   $(".cover .box3 .section3-content:nth-child(3) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box3 .section3-content:nth-child(4) input").click(function(){
+  //   $(".cover .box3 .section3-content:nth-child(4) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box4 .section3-content:nth-child(2) input").click(function(){
+  //   $(".cover .box4 .section3-content:nth-child(2) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box4 .section3-content:nth-child(3) input").click(function(){
+  //   $(".cover .box4 .section3-content:nth-child(3) .content-img").fadeIn("on")
+  // })
+  // $(".common-section .box4 .section3-content:nth-child(4) input").click(function(){
+  //   $(".cover .box4 .section3-content:nth-child(4) .content-img").fadeIn("on")
+  // })
 })
