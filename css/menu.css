@@ -9,13 +9,13 @@
 .main ul li a:hover{color: rgb(31, 121, 206); transition: 0.2s;}
 .main ul li a:hover::after{width: 100%; transition: 0.2s;}
 
-.mouse{width: 70px; position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); z-index: 99; animation: scroll 2s infinite;}
+.mouse{width: 70px; position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); z-index: 99; animation: scroll 1.5s infinite;}
 @keyframes scroll {
     from {
-        transform: translateY(-15px);
+        bottom: 50px;
     }
     to {
-        transform: translateY(0px);
+        bottom: 40px;
     }
 }
 .mouse img{width: 100%;}
