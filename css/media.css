@@ -59,9 +59,11 @@
     .section2 .section2-content .sub-title ul{flex-wrap: wrap;}
     .section2 .section2-content .sub-title ul li.on{order: 9;}
 
+    .section3 .content-img{width: 300px;}
+    
     .section5 .section-wrap{padding-top: 0px;}
     .section5 .footer{font-size: 11px;}
-    .section3 .content-img{width: 300px;}
+    .section5 .map .content-map-txt{box-shadow: none;}
 }
 /* fold */
 @media screen and (max-width: 300px){
