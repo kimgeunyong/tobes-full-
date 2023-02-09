@@ -8,3 +8,14 @@
 .main ul li a::after{position: absolute; content: ""; width: 0%; height: 2px; background-color: rgb(31, 121, 206); bottom: -5px; left: 50%; transform: translateX(-50%);}
 .main ul li a:hover{color: rgb(31, 121, 206); transition: 0.2s;}
 .main ul li a:hover::after{width: 100%; transition: 0.2s;}
+
+.mouse{width: 70px; position: fixed; bottom: 50px; left: 50%; transform: translateX(-50%); z-index: 99; animation: scroll 2s infinite;}
+@keyframes scroll {
+    from {
+        transform: translateY(-15px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+.mouse img{width: 100%;}

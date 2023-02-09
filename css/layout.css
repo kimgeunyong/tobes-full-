@@ -61,15 +61,16 @@ ul{padding-left: 0;}
 .section2 .section-wrap{padding: 0 2%;}
 .section2 .title{text-align: center; padding-bottom: 20px; color: #eee;}
 .section2 .section2-content{display: flex; justify-content: center; gap: 20px;}
+.section2 .section2-content .sub-title ul{margin: 0;}
 .section2 .section2-content .sub-title ul li{font: 30px 'ONE-Mobile-Title'; line-height: 50px; color: #eee; transition: 0.2s;}
 .section2 .section2-content ul li{cursor: pointer;}
-.section2 .section2-content .sub-content{flex-basis: 60%; background-color: #ddd; padding: 2% 4%; border-radius: 10px; box-shadow: 5px 5px 7px 3px #eee;}
+.section2 .section2-content .sub-content{flex-basis: 60%; background-color: #eee; padding: 2% 4%; border-radius: 10px; box-shadow: 5px 5px 7px 3px #ddd;}
 .section2 .section2-content .sub-content ul{display: none; font-size: 20px;}
-.section2 .section2-content .sub-content ul li:first-child{margin-bottom: 20px; text-shadow: 2px 2px 2px gray; text-align: center; font: 32px 'ONE-Mobile-Title';}
+.section2 .section2-content .sub-content ul li:first-child{margin-bottom: 20px; text-shadow: 2px 2px 2px gray; text-align: center; font: 32px 'ONE-Mobile-Title'; color: #009fe8;}
 .section2 .section2-content .sub-content ul li:last-child{margin-top: 20px;}
 .section2 .section2-content .sub-content ul li img{width: 100%; border-radius: 15px;}
 
-.section2 .section2-content .sub-title ul li.on{font-weight: bold; text-shadow: 2px 2px 2px gray; color: #009fe8; transition: 0.2s;}
+.section2 .section2-content .sub-title ul li.on{font-weight: bold; text-shadow: 2px 2px 2px gray; color: #009fe8; transition: 0.2s; width: 100%; background-color: #eee; padding: 0 3%; text-align: center; border-radius: 10px; box-shadow: 5px 5px 15px 5px gray;}
 .section2 .section2-content .sub-content ul.on{display: block;}
 
 
@@ -95,20 +96,20 @@ ul{padding-left: 0;}
 .common-section .content-img .close{position: absolute; top: -35px; color: #fff; right: 2%; font-size: 25px; cursor: pointer; text-shadow: 2px 4px 2px #009fe8;}
 
 
-.root_daum_roughmap{height: 353px; border-radius: 5px;}
+.root_daum_roughmap{height: 353px; border-radius: 5px; box-shadow: 1px 1px 5px 1px grey;}
 
 .section5{background:url(../img/map.png); background-size: cover; background-position: center; height: 100vh; box-sizing: border-box;}
 .section5 .title{display: none;}
 .section5 .map{display: flex; padding-bottom: 80px; justify-content: center; align-items: center; gap: 20px;}
 /* .section5 .map .content-map{flex-basis: 50%;} */
-.section5 .map .content-map-txt{text-align: left; padding: 50px; border-radius: 5px; background-color: #eee; color: #000;}
+.section5 .map .content-map-txt{text-align: left; padding: 50px; border-radius: 5px; background-color: #eee; color: #000; box-shadow: 1px 1px 5px 1px grey;}
 .section5 .map .content-map-txt .content-map-title{width: 200px; margin: 0 auto;}
 .section5 .map .content-map-txt .content-map-title img{width: 100%;}
 .section5 .map .content-map-txt .content-map-subtxt{padding-top: 50px;}
 .section5 .map .content-map-txt .content-map-subtxt ul li{margin-bottom: 20px; cursor: pointer;}
-.section5 .map .content-map-txt .quick-link{width: 150px; height: 50px; margin: 0 auto; border-radius: 30px; text-align: center; line-height: 50px; border: 1px solid #009fe8;}
+.section5 .map .content-map-txt .quick-link{width: 150px; height: 50px; margin: 0 auto; border-radius: 30px; text-align: center; line-height: 50px; border: 1px solid #009fe8; box-shadow: 1px 1px 5px 1px grey;}
 .section5 .map .content-map-txt .quick-link:hover{background-color: #009fe8; transition: 0.2s;}
 .section5 .map .content-map-txt .quick-link:hover a{color: #fff;}
-.section5 .footer{background-color: #eee; color: #000; padding: 2%; display: flex; justify-content: center; max-width: 1000px; margin: 0 auto; border-radius: 15px; gap: 20px;}
+.section5 .footer{background-color: #eee; color: #000; padding: 2%; display: flex; justify-content: center; max-width: 1000px; margin: 0 auto; border-radius: 15px; gap: 20px; box-shadow: 1px 1px 5px 1px grey;}
 .section5 .footer .footer-inner{display: flex; gap: 20px;}
 .section5 .footer ul{padding: 0;}

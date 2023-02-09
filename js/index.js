@@ -114,14 +114,14 @@ $("document").ready(function () {
   $(".section3 .box2 input").click(function(){
     $(".cover .box2 .content-img").fadeIn("on")
   })
-  $(".section3 .box3 input").click(function(){
+  $(".section4 .box3 input").click(function(){
     $(".cover .box3 .content-img").fadeIn("on")
   })
-  $(".section3 .box4 input").click(function(){
+  $(".section4 .box4 input").click(function(){
     $(".cover .box4 .content-img").fadeIn("on")
   })
-  $(".section3 .cover .close").click(function(){
-    $(".section3 .content-img").fadeOut("on")
+  $(".common-section .cover .close").click(function(){
+    $(".common-section .content-img").fadeOut("on")
   })
 
 })
