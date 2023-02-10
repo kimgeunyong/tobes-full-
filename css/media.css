@@ -27,6 +27,7 @@
     .section1 .main-txt{width: 300px;}
 
     .section2 .sub-title ul{display: flex; justify-content: space-around;}
+    .section2 .section2-content .sub-content ul{line-height: 1.5rem;}
     /* .section2 .section2-content{display: block;} */
     .section2 .section2-content{flex-wrap: wrap;}
     .section2 .section2-content div{flex-basis: 100% !important;}
@@ -34,7 +35,7 @@
     .common-section .section3-box{gap: 5px; justify-content: space-between;}
     .common-section .section3-title ul{font-size: 20px;}
     .common-section .section3-title{flex-basis: 45%;}
-    .common-section .section3-content{flex-basis: 48%;}
+    .common-section .section3-content{flex-basis: 48%; border-radius: 20px !important;}
     .common-section .section3-content ul{font-size: 12px;}
     .common-section .section3-content ul li:last-child{margin-top: 0;}
     .common-section .section3-content ul li:last-child strong{font: 12px 'ONE-Mobile-Title';}
@@ -47,6 +48,7 @@
     .root_daum_roughmap{width: 350px !important; height: 250px;}
     .section5 .footer{padding: 5%;}
     .section5 .footer-inner{margin-top: 5px;}
+    .section5 .map .content-map-txt{box-shadow: none;}
 
     .section3 .content-img{width: 376px;}
 }
@@ -60,6 +62,7 @@
     .section2 .section2-content .sub-title ul li.on{order: 9;}
 
     .common-section .content-img{width: 300px;}
+    .common-section .section3-content ul{line-height: 1rem;}
 
     .section5 .section-wrap{padding-top: 0px;}
     .section5 .footer{font-size: 11px;}

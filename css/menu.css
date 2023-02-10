@@ -4,7 +4,7 @@
 
 .main{width: 200px; position: fixed; left: 2%; top: 80px; display: flex; flex-wrap: wrap; height: 100vh; z-index: 999 !important;}
 .main ul{line-height: 45px; padding: 0;}
-.main ul li a{font-size: 25px; position: relative;}
+.main ul li a{font-size: 25px; position: relative; font-family: 'paybooc-Bold';}
 .main ul li a::after{position: absolute; content: ""; width: 0%; height: 2px; background-color: rgb(31, 121, 206); bottom: -5px; left: 50%; transform: translateX(-50%);}
 .main ul li a:hover{color: rgb(31, 121, 206); transition: 0.2s;}
 .main ul li a:hover::after{width: 100%; transition: 0.2s;}
